@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NextGen Hoops Recruiting | Your Path to the Next Level</title>
+<meta name="description" content="NextGen Hoops Recruiting helps young basketball players showcase their talent and connect with opportunities.">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#111827;background:#f8fafc;line-height:1.6}
+nav{background:#0b1220;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.logo{font-size:21px;font-weight:800}.logo span{color:#f59e0b}nav a{color:white;text-decoration:none;margin-left:22px;font-weight:600}
+.hero{padding:90px 7%;background:linear-gradient(135deg,#0b1220,#172554);color:white}
+.hero h1{font-size:clamp(42px,7vw,72px);line-height:1.02;margin:0 0 22px;max-width:800px}.hero p{font-size:20px;max-width:680px;color:#dbeafe}
+.btn{display:inline-block;background:#f59e0b;color:#111827;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:800;margin:10px 10px 0 0}
+.btn.alt{background:white}.section{padding:70px 7%;max-width:1200px;margin:auto}.section h2{font-size:38px;margin:0 0 12px}.muted{color:#64748b}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;margin-top:30px}
+.card{background:white;border:1px solid #e2e8f0;border-radius:14px;padding:28px;box-shadow:0 5px 20px #00000008}.card h3{margin-top:0;font-size:22px}
+.form{max-width:760px;background:white;padding:30px;border-radius:14px;border:1px solid #e2e8f0}
+label{display:block;font-weight:700;margin-top:16px}input,select,textarea{width:100%;padding:13px;margin-top:7px;border:1px solid #cbd5e1;border-radius:7px;font-size:16px}textarea{min-height:120px}
+footer{background:#0b1220;color:#cbd5e1;padding:35px 7%;text-align:center}
+@media(max-width:700px){nav{display:block}nav a{display:inline-block;margin:10px 12px 0 0}.hero{padding-top:65px}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">NEXTGEN <span>HOOPS</span> RECRUITING</div>
+<div><a href="#services">Services</a><a href="#players">Players</a><a href="#apply">Apply</a><a href="#contact">Contact</a></div>
+</nav>
+
+<section class="hero">
+<h1>Turn Your Game Into Your Next Opportunity.</h1>
+<p>We help young basketball players showcase their talent, build a strong recruiting profile, and get in front of the right basketball opportunities.</p>
+<a class="btn" href="#apply">Submit Your Player Profile</a>
+<a class="btn alt" href="#services">How It Works</a>
+</section>
+
+<section class="section" id="services">
+<h2>What We Do</h2>
+<p class="muted">A player-first recruiting service designed to help young athletes take the next step.</p>
+<div class="grid">
+<div class="card"><h3>🏀 Player Evaluation</h3><p>Review your position, experience, strengths, development areas and basketball goals.</p></div>
+<div class="card"><h3>🎥 Highlight Profiles</h3><p>Organize your player information and highlight video into a professional recruiting profile.</p></div>
+<div class="card"><h3>📣 Exposure</h3><p>Help present qualified players to appropriate coaches, programs and basketball opportunities.</p></div>
+<div class="card"><h3>🧭 Recruiting Guidance</h3><p>Get practical guidance on contacting programs, presenting yourself and navigating recruiting opportunities.</p></div>
+</div>
+</section>
+
+<section class="section" id="players">
+<h2>For Players & Families</h2>
+<p class="muted">Your basketball profile should make it easy for a coach to understand who you are as a player.</p>
+<div class="grid">
+<div class="card"><h3>1. Create Your Profile</h3><p>Tell us your age, height, position, location, experience and basketball goals.</p></div>
+<div class="card"><h3>2. Add Your Video</h3><p>Submit a link to your best game footage or highlight video.</p></div>
+<div class="card"><h3>3. Get Reviewed</h3><p>We review the information and determine how we can best support your recruiting journey.</p></div>
+<div class="card"><h3>4. Pursue Opportunities</h3><p>Build connections and pursue programs that fit your age, level and goals.</p></div>
+</div>
+</section>
+
+<section class="section" id="apply">
+<h2>Player Registration</h2>
+<p class="muted">Start your recruiting profile below. For athletes under 18, a parent or legal guardian should be involved in the registration process.</p>
+<form class="form" onsubmit="event.preventDefault();alert('Thank you! Your application form is ready. Connect this form to your email/form service before publishing.');">
+<label>Player Full Name<input required type="text" placeholder="Full name"></label>
+<label>Parent/Guardian Name<input type="text" placeholder="Parent or guardian"></label>
+<label>Email<input required type="email" placeholder="you@example.com"></label>
+<label>Phone<input type="tel" placeholder="Phone number"></label>
+<label>Age<input required type="number" min="10" max="22" placeholder="Age"></label>
+<label>Height<input type="text" placeholder="e.g. 6'3&quot;"></label>
+<label>Position<select><option>Select position</option><option>Point Guard</option><option>Shooting Guard</option><option>Small Forward</option><option>Power Forward</option><option>Center</option></select></label>
+<label>Location<input type="text" placeholder="City, State/Country"></label>
+<label>Playing Experience<textarea placeholder="Teams, leagues, school, achievements, years played..."></textarea></label>
+<label>Highlight Video Link<input type="url" placeholder="YouTube, Hudl or other video link"></label>
+<button class="btn" type="submit">Submit Profile</button>
+</form>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact NextGen Hoops</h2>
+<p class="muted">Ready to discuss a player or recruiting opportunity?</p>
+<p><strong>Email:</strong> info@nextgenhoopsrecruiting.com</p>
+<p><strong>Phone:</strong> +1 (000) 000-0000</p>
+</section>
+
+<footer>© 2026 NextGen Hoops Recruiting. All rights reserved.</footer>
+</body>
+</html>
